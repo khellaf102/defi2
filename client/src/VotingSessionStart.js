@@ -1,25 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 
 
 
 const getProposals = async (totalProposals, etapes, setProposals) => {
   const results = [];
 
-  for (let i = 1; i < totalProposals; i++) {
+  for (let i = 0; i < totalProposals; i++) {
     const description = await etapes.getProposal(i);
 
     results.push(
-      <div key={i}>
-        <div>
-          <Button
+      < div key={i}>
+        {description}
+
+          <button
             onClick={() => etapes.vote(i)}
           >
             Voter
-          </Button>
-        </div>
-        <div>{description}</div>
+          </button>
+        
       </div>
     );
   }
@@ -39,13 +37,13 @@ const RegisterVoter= ({ totalProposals, etapes, isOwner }) => {
     <div>{proposals}</div>
 
     <div>
-      <Button
+      <button
         disabled={!isOwner}
         type="button"
         onClick={() => etapes.votingSessionEnded()}
       >
          End vote session
-      </Button>
+      </button>
     </div>
   </div>
   );

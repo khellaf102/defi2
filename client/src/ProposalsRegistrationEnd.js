@@ -1,5 +1,3 @@
-import Button from "@material-ui/core/Button";
-import { makeStyles } from "@material-ui/core/styles";
 import React from "react";
 
 const ProposalsRegistrationEnd = ({ etapes, isOwner }) => {
@@ -18,11 +16,11 @@ const ProposalsRegistrationEnd = ({ etapes, isOwner }) => {
       <h3>debut de session de vote </h3>
 
       <div>
-        <Button
+        <button
           type="button"
           onClick={() => etapes.votingSessionStart()}
         >
-            cliquez ici </Button>
+            cliquez ici </button>
       </div>
     </div>
   );

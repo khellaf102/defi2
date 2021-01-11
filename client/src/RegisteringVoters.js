@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from "@material-ui/core/Button";
 
 const RegisterVoter = ({ etapes, isOwner }) => {
 
@@ -29,16 +28,16 @@ const RegisterVoter = ({ etapes, isOwner }) => {
             onInput={(e) => setAddress(e.target.value)}
             label="Ajouter Adresse"
           />
-          <Button
+          <button
             type="submit"
           >
-            Ajouter
-          </Button>
+            ajouter
+          </button>
         </form>
       </form>
       <div>
 
-        <Button
+        <button
           disabled={!isOwner}
           type="button"
 
@@ -46,7 +45,7 @@ const RegisterVoter = ({ etapes, isOwner }) => {
           onClick={() => etapes.proposalsRegistrationStartedSession()}
         >
       enregistrement  des propositions
-        </Button>
+        </button>
       </div>
     </div>
   );

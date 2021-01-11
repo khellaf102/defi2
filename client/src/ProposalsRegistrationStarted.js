@@ -24,7 +24,6 @@ const ProposalsRegistrationStarted = ({ etapes, isOwner }) => {
           />
           <button
             type="submit"
-            title="Ajouter"
           >
             Ajouter
           </button>

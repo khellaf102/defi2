@@ -48,16 +48,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.11+commit.5ef660b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/amelk/Documents/defi2-votting-react/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/amelk/Documents/defi2-votting-react/contracts/Migrations.sol\":{\"keccak256\":\"0xc93c4d9040d6d696f1b41346888ce18568d4d652b651ced80d64bfe2ea64614a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f13bdf3af9e36d7ad6c019690ee2e9b6b3f0e1aa048a409150e56f494dca63ce\",\"dweb:/ipfs/QmQUCHmbgBqt6xPwsUrspeRTBcoFtKe8x5b3ZSyUiq6Kp1\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506101ba806100606000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063445df0ac146100635780638da5cb5b14610081578063fdacd576146100cb575b600080fd5b61006b6100f9565b6040518082815260200191505060405180910390f35b6100896100ff565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100f7600480360360208110156100e157600080fd5b8101908080359060200190929190505050610124565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561018157806001819055505b5056fea2646970667358221220b337e14ca7d3e071b71c4e4ebf99e772d0ba3ec84983c718c10770f901240c0364736f6c634300060b0033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063445df0ac146100635780638da5cb5b14610081578063fdacd576146100cb575b600080fd5b61006b6100f9565b6040518082815260200191505060405180910390f35b6100896100ff565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100f7600480360360208110156100e157600080fd5b8101908080359060200190929190505050610124565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561018157806001819055505b5056fea2646970667358221220b337e14ca7d3e071b71c4e4ebf99e772d0ba3ec84983c718c10770f901240c0364736f6c634300060b0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.11+commit.5ef660b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/amelk/Desktop/Defi2DV/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/amelk/Desktop/Defi2DV/contracts/Migrations.sol\":{\"keccak256\":\"0xc93c4d9040d6d696f1b41346888ce18568d4d652b651ced80d64bfe2ea64614a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f13bdf3af9e36d7ad6c019690ee2e9b6b3f0e1aa048a409150e56f494dca63ce\",\"dweb:/ipfs/QmQUCHmbgBqt6xPwsUrspeRTBcoFtKe8x5b3ZSyUiq6Kp1\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506101ba806100606000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063445df0ac146100635780638da5cb5b14610081578063fdacd576146100cb575b600080fd5b61006b6100f9565b6040518082815260200191505060405180910390f35b6100896100ff565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100f7600480360360208110156100e157600080fd5b8101908080359060200190929190505050610124565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561018157806001819055505b5056fea2646970667358221220a360be3e218249e1ae532f7d2f516d20a41e6938c3bfa295bcf88c5b76398d1864736f6c634300060b0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063445df0ac146100635780638da5cb5b14610081578063fdacd576146100cb575b600080fd5b61006b6100f9565b6040518082815260200191505060405180910390f35b6100896100ff565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100f7600480360360208110156100e157600080fd5b8101908080359060200190929190505050610124565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561018157806001819055505b5056fea2646970667358221220a360be3e218249e1ae532f7d2f516d20a41e6938c3bfa295bcf88c5b76398d1864736f6c634300060b0033",
   "immutableReferences": {},
   "sourceMap": "66:311:0:-:0;;;218:50;;;;;;;;;;253:10;245:5;;:18;;;;;;;;;;;;;;;;;;66:311;;;;;;",
   "deployedSourceMap": "66:311:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;114:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;90:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;272:103;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;114:36;;;;:::o;90:20::-;;;;;;;;;;;;;:::o;272:103::-;201:5;;;;;;;;;;;187:19;;:10;:19;;;183:26;;;361:9:::1;334:24;:36;;;;183:26:::0;272:103;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.21 <0.7.0;\n\ncontract Migrations {\n  address public owner;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    if (msg.sender == owner) _;\n  }\n\n  constructor() public {\n    owner = msg.sender;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/Users/amelk/Documents/defi2-votting-react/contracts/Migrations.sol",
+  "sourcePath": "/Users/amelk/Desktop/Defi2DV/contracts/Migrations.sol",
   "ast": {
-    "absolutePath": "/Users/amelk/Documents/defi2-votting-react/contracts/Migrations.sol",
+    "absolutePath": "/Users/amelk/Desktop/Defi2DV/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         36
@@ -483,7 +483,7 @@
     "src": "32:346:0"
   },
   "legacyAST": {
-    "absolutePath": "/Users/amelk/Documents/defi2-votting-react/contracts/Migrations.sol",
+    "absolutePath": "/Users/amelk/Desktop/Defi2DV/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         36
@@ -916,12 +916,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x33A204a2ce5944ADD0C42AAD3951F0a55bf6Cf63",
-      "transactionHash": "0x5b89890f45cd303cbe85f3680b71bc251aeae109cfa2761cb86b7890a242a2ef"
+      "address": "0x4F89B5Ff8e90201EE243161dB50c57Bc0b7a22C1",
+      "transactionHash": "0x5129c9fc61a5069598e9a2e663d6c9daacee920e8949788eb503935886464069"
     }
   },
   "schemaVersion": "3.3.0",
-  "updatedAt": "2020-12-23T21:29:42.762Z",
+  "updatedAt": "2021-01-11T15:27:19.696Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

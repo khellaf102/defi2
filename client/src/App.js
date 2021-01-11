@@ -1,17 +1,19 @@
+
+//stepper pour gerer les transitions 
 import Stepper from 'react-stepper-horizontal';
 import React, { Component } from "react";
-import Voting from "../contracts/Voting.json";
-import getWeb3 from "../getWeb3";
-import RegisteringVoters from "./RegisterVoter";
-import ProposalsRegistrationStarted from  "./ProposalsRegistrationStartedSession";
-import ProposalsRegistrationEnd from  "./ProposalsRegistrationEnded"
-import VotingSessionStart from "./VotingSessionStart";
-import VotingSessionEnded  from "./VotingSessionEnded";
-import CompteVotes from "./CompteVotes";
+import Voting from "./contracts/Voting.json";
+import getWeb3 from "./getWeb3";
+import RegisteringVoters from "./RegisteringVoters.js";
+import ProposalsRegistrationStarted from  "./ProposalsRegistrationStarted.js";
+import ProposalsRegistrationEnd from  "./ProposalsRegistrationEnd.js"
+import VotingSessionStart from "./VotingSessionStart.js";
+import VotingSessionEnded  from "./VotingSessionEnded.js";
+import CompteVotes from "./CompteVotes.js";
 
 
 import "./App.css";
-
+//liste des composants a afficher 
 const composantAffiche = [
   {
 
